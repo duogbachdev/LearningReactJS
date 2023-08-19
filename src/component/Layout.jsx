@@ -5,6 +5,10 @@ import Category from "./layout/category/Category";
 import Header from "./layout/header/Header";
 import Slider from "./layout/banner/Slider";
 import New from "./layout/news/New";
+import SeeMore from "./layout/news/SeeMore";
+import Introduce from "./layout/introduce/Introduce";
+import Footer from "./layout/footer/Footer";
+import IntroduceFooter from "./layout/footer/IntroduceFooter";
 // import Slider from "./layout/banner/Slider";
 
 export const Layout = () => {
@@ -28,12 +32,26 @@ export const Layout = () => {
         </div>
       </div>
 
-      <div className="container mx-auto  py-2 bg-white">
+      <div className="container mx-auto  py-2 bg-white mb-5">
         <Category />
       </div>
 
-      <div>
+      <div className="container mx-auto  py-2 bg-white mb-5">
         <New />
+      </div>
+      <div className="container mx-auto  py-2 mb-5">
+        <SeeMore />
+      </div>
+      <div className="container mx-auto  py-2 mb-5">
+        <Introduce />
+      </div>
+      <div className=" bg-white ">
+        <div className="container mx-auto py-7">
+          <Footer />
+        </div>
+        <div className="text-center border-t-2 border-solid border-transparent border-t-[#e6e1e1]">
+          <IntroduceFooter />
+        </div>
       </div>
     </div>
   );

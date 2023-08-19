@@ -1,9 +1,11 @@
 import "./App.css";
 import { Layout } from "./component/Layout";
+import Form from "./component/form/Form";
 
 function App() {
   return (
     <div>
+      {/* <Form /> */}
       <Layout />
     </div>
 
